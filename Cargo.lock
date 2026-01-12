@@ -177,6 +177,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust-strace-sample"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "nix",
+]
+
+[[package]]
 name = "strsim"
 version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -191,15 +200,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "syscall-tracer"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "nix",
 ]
 
 [[package]]

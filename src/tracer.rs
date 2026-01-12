@@ -1,5 +1,4 @@
 use crate::process;
-use crate::syscalls;
 use anyhow::Result;
 
 #[cfg(target_os = "linux")]

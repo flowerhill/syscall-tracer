@@ -1,10 +1,10 @@
-# syscall-tracer[WIP]
+# rust-strace-sample[WIP]
 
 A toy system call tracer for Linux written in Rust.
 
 ## Description
 
-`syscall-tracer` is a simple command-line tool that traces system calls made by a target process using Linux's ptrace API. Currently, it monitors `write` system calls and displays their arguments.
+`rust-strace-sample` is a simple command-line tool that traces system calls made by a target process using Linux's ptrace API. Currently, it monitors `write` system calls and displays their arguments.
 
 ## Requirements
 
